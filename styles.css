@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.navbar {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+    background: #4CAF50;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+}
+
+.container p{
+    padding-top: 1rem;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.image img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image2 img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+.img3{
+    display: flex;
+    justify-content: center;
+}
+
+.img3 img{
+    width: 600px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
